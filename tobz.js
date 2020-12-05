@@ -2338,14 +2338,14 @@ Menunggu video...`
         case '#bc':
             if (!isOwner) return tobz.reply(from, `Perintah ini hanya untuk Owner YONI CHAN`, id)
                 bctxt = body.slice(4)
-                txtbc = `*「 *YONI CHAN 𝘽𝘾* 」*\n\n${bctxt}`
+                txtbc = `*「 YONI CHAN 𝘽𝘾 」*\n\n${bctxt}`
                 const semuagrup = await tobz.getAllChatIds();
                 if(quotedMsg && quotedMsg.type == 'image'){
                     const mediaData = await decryptMedia(quotedMsg)
                     const imageBase64 = `data:${quotedMsg.mimetype};base64,${mediaData.toString('base64')}`
                     for(let grupnya of semuagrup){
                         var cekgrup = await tobz.getChatById(grupnya)
-                        if(!cekgrup.isReadOnly) tobz.sendImage(grupnya, imageBase64, 'gambar.jpeg', txtbc)
+                        if(!cekgrup.isReadOnly) tobz.sendImage(grupnya, imageBase64, 'eror.jpeg', txtbc)
                     }
                     tobz.reply('Broadcast sukses!')
                 }else{
@@ -2902,6 +2902,13 @@ Menunggu video...`
             fs.writeFileSync('./lib/database/kotor.json', JSON.stringify(kotor))
             tobz.reply(from, `Delete ${kotorso} sukses!`,id)
             break
+	
+
+	
+
+	
+
+		
         case '#antilinkgc':
             if (!isGroupMsg) return tobz.reply(from, 'Perintah ini hanya bisa di gunakan dalam group!', id)
             if (!isGroupAdmins) return tobz.reply(from, 'Perintah ini hanya bisa di gunakan oleh Admin group!', id)
