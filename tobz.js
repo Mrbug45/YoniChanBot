@@ -81,7 +81,7 @@ const adminNumber = JSON.parse(fs.readFileSync('./lib/database/admin.json'))
 const say = JSON.parse(fs.readFileSync('./lib/database/say.json'))
 const lenkgc = JSON.parse(fs.readFileSync('./lib/database/linkgc.json'))
 const daftar = JSON.parse(fs.readFileSync('./lib/database/daftar.json'))
-const kasar = JSON.parse(fs.readFileSync('.lib/database/kasar.json'))
+
 
 let { 
     limitCount,
