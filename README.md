@@ -6,12 +6,12 @@
   <samp>
 My name is  Maftuhul. I am a student from Indonesia. Programming is my hobby. 
     <br>I love to use Python, Go, PHP, Java, Kotlin, etc. <br>
-     <br><br>Contact me on <a href="https://jeremia.co">My Website</a>
+     <br><br>Contact me on <a href="Wa.me/6285329981485">My WhatsApp</a>
   </samp>
 </p>
 
 <!--
-**jeremia49/jeremia49** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**MrBug45/Maftuhul** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
